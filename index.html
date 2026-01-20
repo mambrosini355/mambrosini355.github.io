@@ -121,6 +121,12 @@
       font-size:.95rem;
       letter-spacing:.04em;
     }
+    .hero-badge.no-comision{
+      background: rgba(230, 6, 6, 0.92);
+      color: #fcfcfc;
+      border: 1px solid rgba(255,255,255,.25);
+      box-shadow: 0 10px 20px rgba(0,0,0,.14);
+    }
     .hero h1{
       margin:14px 0 10px;
       font-size:clamp(2.3rem,5vw,3.6rem);
@@ -581,7 +587,11 @@
   <div class="hero-content container">
     <div class="hero-grid">
       <div>
-        <span class="hero-badge">LANZAMIENTO · ETAPA 3</span>
+        <div class="hero-badges">
+          <span class="hero-badge">LANZAMIENTO · ETAPA 3</span>
+          <span class="hero-badge no-comision">SIN COMISIÓN INMOBILIARIA</span>
+        </div>
+
         <h1>Hudson Lagoon</h1>
         <p>
           Reservá hoy tu lote financiado en Hudson.<br>
@@ -935,6 +945,7 @@
 
 </body>
 </html>
+
 
 
 
