@@ -526,6 +526,13 @@
       .hero-arrow{ display:none; }
       .hero-dots{ display:flex; }
     }
+    /* FIX HERO MOBILE - evita que el badge quede oculto */
+    @media (max-width: 520px){
+      .hero{
+        padding-top: calc(86px + 24px);
+      }
+    }
+
   </style>
 </head>
 
@@ -933,4 +940,5 @@
 
 </body>
 </html>
+
 
